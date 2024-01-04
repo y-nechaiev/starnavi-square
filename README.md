@@ -1,0 +1,1 @@
+# Starnavi test task focused on components lifecycle and rendering processes.

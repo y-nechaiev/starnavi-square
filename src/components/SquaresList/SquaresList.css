@@ -1,0 +1,19 @@
+.squares-list li {
+  list-style: none;
+  padding: 5px;
+  background-color: #FAE690;
+  border: none;
+  color: #AD5118;
+}
+
+.squares-list ul {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.squares-list li {
+    margin: 2px;
+    width: 150px;
+    text-align: center;
+}
