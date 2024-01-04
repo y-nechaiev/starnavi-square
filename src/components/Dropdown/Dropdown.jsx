@@ -9,8 +9,8 @@ const Dropdown = ({ modes, onChange }) => {
 
   return (
     <div className="dropdown">
-      <select onChange={handleModeChange}>
-        <option value="" disabled selected>Select a mode</option>
+      <select defaultValue="" onChange={handleModeChange}>
+        <option value="" disabled>Select a mode</option>
         {modes.map(mode => (
           <option key={mode.id} value={mode.name}>{mode.name}</option>
         ))}
